@@ -1,18 +1,8 @@
-# Use the official Node.js image
-FROM node:14
+# Use the official Nginx image from the Docker Hub
+FROM nginx:alpine
 
-# Create and change to the app directory
-WORKDIR /usr/src/app
+# Copy the static files to the Nginx web directory
+COPY . /usr/share/nginx/html
 
-# Install app dependencies
-
-RUN npm install
-
-# Copy the app source code
-COPY . .
-
-# Bind to port 3000
-EXPOSE 8000
-
-# Run the app
-CMD ["node", "index.js"]
+# Expose port 80
+EXPOSE 80
