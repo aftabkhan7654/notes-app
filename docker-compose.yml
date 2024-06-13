@@ -4,4 +4,4 @@ services:
   web:
     image: aftabkhan7654/notes-app
     ports:
-      - "8000:8000"
+      - "80:80"
