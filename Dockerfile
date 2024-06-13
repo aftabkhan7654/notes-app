@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Bind to port 3000
-EXPOSE 3000
+EXPOSE 8000
 
 # Run the app
 CMD ["node", "index.js"]
