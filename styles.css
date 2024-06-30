@@ -5,14 +5,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color:#a75050;
+    background-color:#b6a0a0;
 }
 
 .container {
     background: rgb(119, 96, 96);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(131, 180, 39, 0.1);
 }
 
 h1 {
@@ -27,7 +27,7 @@ form {
 input {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     margin-right: 10px;
 }
@@ -36,7 +36,7 @@ button {
     padding: 10px 20px;
     border: none;
     background-color: #28a745;
-    color: white;
+    color: rgba(255, 255, 255, 0.37);
     border-radius: 4px;
     cursor: pointer;
 }
@@ -47,7 +47,7 @@ ul {
 }
 
 li {
-    background: #eee;
+    background: #ffffff;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
